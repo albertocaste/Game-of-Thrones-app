@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #b19982;
+  
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: #9c6644;
+  background-color: #e6ccb2;
+  border: solid;
+}
+
+.character-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.character-block {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+.img-container {
+  height: 82%;
+}
+
+.img-character {
+  width: 290px;
+  height: 300px;
+}
+
+.character-block p {
+  margin: 5px;
+}
+
+.name {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.pagination {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+/*nav {
+    height: 3rem;
+    font-size: 1,5rem;
+    text-transform: uppercase;
+    background-color: #357968;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav a {
+    color: white;
+    text-decoration: none; 
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.myName {
+    color: #f5cac3
+}
+
+.perfil-img {
+    width: 200px;
+    border-radius: 80%;
+    border: solid 6px white;
+}
+
+#section1 {
+    background-color: #84a59d;
+    color: white;
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+
+}
+#section2 {
+    background-color: khaki;
+}
+
+#section1 p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+*/
